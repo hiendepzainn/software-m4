@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jua&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.header {
+  background-color: #efefef;
+  padding: 20px 40px 20px 40px;
+}
+
+.logo-block {
+  /* background-color: rgb(228, 203, 173); */
+  display: flex;
+  align-items: center;
+}
+
+.options-block {
+  /* background-color: rgb(228, 203, 173); */
+  display: flex;
+  align-items: center;
+  width: 23vw;
+  justify-content: space-between;
+}
+
+.icon-block {
+  /* background-color: rgb(228, 203, 173); */
+}
+
+.inner-header {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .inner-header img {
+  width: 50px;
+}
+
+.header .inner-header .logo-block a:nth-child(2) {
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #232323;
+}
+
+.header .inner-header .options-block a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #232323;
+  text-decoration: none;
+}
+
+.header .inner-header .icon-block {
+  width: 11vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .outer-icon {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.header .fa-brands {
+  font-size: 23px;
+}
