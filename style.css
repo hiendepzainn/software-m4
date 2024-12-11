@@ -156,11 +156,25 @@
   background-color: #f7d9c4;
   border: none;
   margin-right: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inner-box-1 .button-block button:nth-child(1):hover {
+  background-color: #ffffff;
+}
+
+.inner-box-1 .button-block button:nth-child(2):hover {
+  border: none;
+  background-color: #f7d9c4;
+  color: #1b2026;
 }
 
 .inner-box-1 .button-block button:nth-child(2) {
   border: 2px solid #464646;
   background-color: transparent;
   color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 /* END CSS BOX-1 */
