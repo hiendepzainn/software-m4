@@ -11,6 +11,15 @@
   padding: 20px 40px 20px 40px;
 }
 
+.container {
+  width: 70vw;
+  /* background-color: beige; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CSS HEADER */
+
 .logo-block {
   /* background-color: rgb(228, 203, 173); */
   display: flex;
@@ -74,3 +83,84 @@
 .header .fa-brands {
   font-size: 23px;
 }
+
+/* END CSS HEADER */
+
+/* CSS BOX-1 */
+.box-1 {
+  position: relative;
+  width: 100vw;
+  background-image: url("https://mobirise.com/extensions/softwarem4/software-app/assets/images/background1.jpg");
+  background-position: 10px -200px;
+  background-size: 110%;
+  /* background-color: aquamarine; */
+}
+
+.box-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 0;
+}
+
+.box-1 * {
+  position: relative;
+  z-index: 1;
+}
+
+.box-1 .inner-box-1 {
+  padding-top: 130px;
+  padding-bottom: 170px;
+  /* background-color: #cccccc; */
+}
+
+.inner-box-1 div:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.inner-box-1 div:nth-child(2) {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.inner-box-1 div:nth-child(3),
+.inner-box-1 div:nth-child(4) {
+  font-weight: 500;
+  margin-bottom: 2px;
+  color: #bbbbbb;
+  font-size: 18px;
+}
+
+.inner-box-1 .button-block {
+  margin-top: 40px;
+}
+
+.inner-box-1 .button-block button {
+  width: 180px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.inner-box-1 .button-block button:nth-child(1) {
+  background-color: #f7d9c4;
+  border: none;
+  margin-right: 15px;
+}
+
+.inner-box-1 .button-block button:nth-child(2) {
+  border: 2px solid #464646;
+  background-color: transparent;
+  color: white;
+}
+/* END CSS BOX-1 */
