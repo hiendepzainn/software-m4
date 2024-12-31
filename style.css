@@ -310,3 +310,44 @@
 }
 
 /* END CSS BOX 3 */
+
+/* CSS BOX 4 */
+
+.inner-box-4 {
+  padding: 70px 0px;
+}
+
+.inner-box-4 p,
+.inner-box-4 span {
+  color: #777777;
+}
+
+.inner-box-4 .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-box-4 .unit {
+  width: 33%;
+  margin-top: 30px;
+}
+
+.inner-box-4 .fa-solid {
+  background-color: #efefef;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.inner-box-4 h2 {
+  margin-bottom: 20px;
+}
+
+.inner-box-4 p {
+  font-size: 17px;
+}
+/* END CSS BOX 4 */
