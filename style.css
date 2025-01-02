@@ -481,4 +481,127 @@
 }
 /* END CSS BOX 6 */
 /* CSS BOX 7 */
+
+.box-7 {
+  background-color: #efefef;
+}
+
+.box-7 .member-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-7 h3,
+.box-7 h2,
+.box-7 h1 {
+  text-align: center;
+}
+
+.box-7 h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  color: #232323;
+}
+
+.box-7 h2 {
+  font-size: 23px;
+  color: #232323;
+}
+
+.box-7 h3 {
+  color: #777777;
+}
+
+.box-7 .block h3 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #777777;
+  margin-bottom: 60px;
+}
+
+.box-7 .block {
+  width: 23%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.box-7 .block:nth-child(1) .image {
+  width: 60%;
+  height: auto;
+  aspect-ratio: 1/1;
+  background-image: url(/images/box-7-mem-1.jpg);
+  background-size: cover;
+  background-position: -8px 0px;
+  border-radius: 50%;
+  margin: 50px 0px 30px 20%;
+}
+
+.box-7 .block:nth-child(2) .image {
+  width: 60%;
+  height: auto;
+  aspect-ratio: 1/1;
+  background-image: url(/images/box-7-mem-2.jpg);
+  background-size: cover;
+  background-position: -8px 0px;
+  border-radius: 50%;
+  margin: 50px 0px 30px 20%;
+}
+
+.box-7 .block:nth-child(3) .image {
+  width: 60%;
+  height: auto;
+  aspect-ratio: 1/1;
+  background-image: url(/images/box-7-mem-3.jpg);
+  background-size: cover;
+  background-position: -8px 0px;
+  border-radius: 50%;
+  margin: 50px 0px 30px 20%;
+}
+
+.box-7 .block:nth-child(4) .image {
+  width: 60%;
+  height: auto;
+  aspect-ratio: 1/1;
+  background-image: url(/images/box-7-mem-4.jpg);
+  background-size: cover;
+  background-position: -8px 0px;
+  border-radius: 50%;
+  margin: 50px 0px 30px 20%;
+}
+
+.box-7 i {
+  background-color: #efefef;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 11px 11px 0px 0px;
+}
+
+.box-7 i:hover {
+  cursor: pointer;
+  background-color: #f7d9c4;
+  color: #ffffff;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.box-7 i:nth-child(1) {
+  padding: 13px 15px 10px 15px;
+}
+
+.box-7 .icon-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.inner-box-7 > h1 {
+  margin: 15px 0px 55px 0px;
+}
+
+.inner-box-7 {
+  padding: 50px 0px;
+  background-color: #efefef;
+}
 /* END CSS BOX 7 */
