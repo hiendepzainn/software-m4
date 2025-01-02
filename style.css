@@ -663,3 +663,95 @@
 }
 
 /* END CSS BOX 8 */
+/* CSS BOX 9 */
+
+.box-9 {
+  background-color: #31363b;
+}
+
+.box-9 .inner-box-9 {
+  background-color: #31363b;
+  padding: 80px 0px;
+}
+
+.box-9 .comment-component {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-9 .comment-component .block {
+  background-color: #fff;
+  width: 31.5%;
+  border-radius: 12px;
+  padding: 50px 50px;
+  position: relative;
+}
+
+.inner-box-9 > h3 {
+  color: #bbbbbb;
+  margin-bottom: 10px;
+}
+
+.inner-box-9 > h1 {
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 60px;
+}
+
+.comment-component .block:nth-child(1) .image {
+  width: 64px;
+  height: 64px;
+  background-image: url(/images/box-7-mem-1.jpg);
+  background-size: cover;
+  background-position: -4px 0px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.comment-component .block:nth-child(2) .image {
+  width: 64px;
+  height: 64px;
+  background-image: url(/images/box-7-mem-2.jpg);
+  background-size: cover;
+  background-position: -4px 0px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.comment-component .block:nth-child(3) .image {
+  width: 64px;
+  height: 64px;
+  background-image: url(/images/box-7-mem-3.jpg);
+  background-size: cover;
+  background-position: -4px 0px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.comment-component .bottom-block {
+  display: flex;
+}
+
+.comment-component p {
+  font-size: 25px;
+  font-style: italic;
+  color: #777777;
+  margin-bottom: 40px;
+}
+
+.infor h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.block > img {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  right: 50px;
+  bottom: 120px;
+}
+/* END CSS BOX 9 */
